@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/car-shop/static/css/main.050e7237.css",
+    "main.js": "/car-shop/static/js/main.849cf435.js",
+    "static/js/793.17e897f6.chunk.js": "/car-shop/static/js/793.17e897f6.chunk.js",
+    "static/js/274.b12ea562.chunk.js": "/car-shop/static/js/274.b12ea562.chunk.js",
+    "static/js/395.5d2b2c44.chunk.js": "/car-shop/static/js/395.5d2b2c44.chunk.js",
+    "static/js/802.870803f4.chunk.js": "/car-shop/static/js/802.870803f4.chunk.js",
+    "static/js/80.8f4ca21a.chunk.js": "/car-shop/static/js/80.8f4ca21a.chunk.js",
+    "static/js/238.7626e887.chunk.js": "/car-shop/static/js/238.7626e887.chunk.js",
+    "static/media/S.png": "/car-shop/static/media/S.79b527fb6b56757f914e.png",
+    "static/media/inter-v13-latin-500.woff2": "/car-shop/static/media/inter-v13-latin-500.6629df60b0706dec8113.woff2",
+    "static/media/inter-v13-latin-regular.woff2": "/car-shop/static/media/inter-v13-latin-regular.f1535355a7df553be385.woff2",
+    "static/media/montserrat-v26-latin-600.woff2": "/car-shop/static/media/montserrat-v26-latin-600.4201798fe1a74331c392.woff2",
+    "static/media/montserrat-v26-latin-regular.woff2": "/car-shop/static/media/montserrat-v26-latin-regular.9ef09180105730e3cb92.woff2",
+    "static/media/manrope-v15-latin-600.woff2": "/car-shop/static/media/manrope-v15-latin-600.ec61c26ae9843c74c66e.woff2",
+    "static/media/manrope-v15-latin-regular.woff2": "/car-shop/static/media/manrope-v15-latin-regular.5b06bf94f857e4244b64.woff2",
+    "static/media/manrope-v15-latin-500.woff2": "/car-shop/static/media/manrope-v15-latin-500.b6bf3db6256270076d37.woff2",
+    "index.html": "/car-shop/index.html",
+    "main.050e7237.css.map": "/car-shop/static/css/main.050e7237.css.map",
+    "main.849cf435.js.map": "/car-shop/static/js/main.849cf435.js.map",
+    "793.17e897f6.chunk.js.map": "/car-shop/static/js/793.17e897f6.chunk.js.map",
+    "274.b12ea562.chunk.js.map": "/car-shop/static/js/274.b12ea562.chunk.js.map",
+    "395.5d2b2c44.chunk.js.map": "/car-shop/static/js/395.5d2b2c44.chunk.js.map",
+    "802.870803f4.chunk.js.map": "/car-shop/static/js/802.870803f4.chunk.js.map",
+    "80.8f4ca21a.chunk.js.map": "/car-shop/static/js/80.8f4ca21a.chunk.js.map",
+    "238.7626e887.chunk.js.map": "/car-shop/static/js/238.7626e887.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.050e7237.css",
+    "static/js/main.849cf435.js"
+  ]
+}
