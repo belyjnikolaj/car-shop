@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
+
+import Loader from '../Loader/Loader';
+
 import { Img } from './CarImage.styled';
-import Loader from 'components/Loader/Loader';
 
 const CarImage = ({ img, alt, width, height }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -21,7 +23,7 @@ const CarImage = ({ img, alt, width, height }) => {
   }, [img]);
 
   if (isLoading) {
-    return <Loader />; // Ваш компонент-лоадер
+    return <Loader />; 
   }
 
   if (imageError) {

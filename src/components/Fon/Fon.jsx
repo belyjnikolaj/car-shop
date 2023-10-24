@@ -1,3 +1,5 @@
+import fon from 'assets/S.png';
+
 import {
   FonUrl,
   BoxFon,
@@ -9,7 +11,6 @@ import {
   TextDropdownPrice,
   TextDropdownMileage,
 } from './Fon.styled';
-import fon from 'assets/S.png';
 
 const Fon = () => {
     return (

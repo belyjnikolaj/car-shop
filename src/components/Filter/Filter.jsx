@@ -4,7 +4,10 @@ import { useDispatch } from 'react-redux';
 import {
   fetchFirstPage,
 } from 'redux/cars/carsOperations';
+import { setFilter } from 'redux/filter/filterSlice';
+
 import Select from './Select/Select';
+
 import {
   FilterForm,
   Input,
@@ -15,9 +18,8 @@ import {
   MileageWrapper,
   SearchButton,
 } from './Filter.styled';
-import { setFilter } from 'redux/filter/filterSlice';
 
-const Filter = ({ setFilterCars, setFiltering, setShowButton }) => {
+const Filter = ({ setFiltering, setShowButton }) => {
   const [valuePrice, setValuePrice] = useState({
     value: '',
     label: 'To $',

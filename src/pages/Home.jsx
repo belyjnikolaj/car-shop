@@ -1,4 +1,3 @@
-
 import Fon from 'components/Fon/Fon';
 
 const Home = () => {

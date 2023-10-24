@@ -1,4 +1,5 @@
 import { Puff } from "react-loader-spinner"
+
 import { LoaderPosition, SuspenseLoader } from "./Loader.styled.jsx"
 
  const Loader = ({ type }) => {

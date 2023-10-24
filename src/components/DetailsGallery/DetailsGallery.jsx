@@ -1,4 +1,5 @@
 import { extractCountryAndCity, formattedTypeText } from 'helpers/helpersStyle';
+
 import {
   Section,
   List,

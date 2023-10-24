@@ -5,7 +5,6 @@ export const Container = styled.div`
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  /* background-color: var(--primary-bg-color); */
   background-color: #ffffff;  
   border-radius: 24px;
   box-shadow: 0px 4px 57px 0px rgba(17, 17, 17, 0.05);
@@ -21,7 +20,6 @@ export const Backdrop = styled.div`
   left: 0;
   width: 100%;
   height: 100%;
-  /* background-color: transparent; */
   background-color: #12141780;
   z-index: 999;
   transition: transform 250ms ease-in-out;

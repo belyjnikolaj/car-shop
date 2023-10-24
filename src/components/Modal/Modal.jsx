@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
 import ReactDOM from 'react-dom';
+import { IoCloseOutline } from 'react-icons/io5';
 
 import { Backdrop, Container, CloseButton } from './Modal.styled';
-import { IoCloseOutline } from 'react-icons/io5';
 
 const Modal = ({ isOpen, onClose, children }) => {
   const handleBackdropClick = event => {
@@ -30,6 +30,7 @@ const Modal = ({ isOpen, onClose, children }) => {
   if (!isOpen) {
     return null;
   }
+
   return ReactDOM.createPortal(
     <Backdrop onClick={handleBackdropClick}>
       <Container id="modal-container">

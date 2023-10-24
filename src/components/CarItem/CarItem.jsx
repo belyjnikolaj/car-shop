@@ -1,4 +1,15 @@
-import ButtonOpenModal from 'components/BtnOpenModal/BtnOpenModal';
+import { useEffect, useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { fetchCarById } from 'redux/cars/carsOperations';
+import { addFavorite, removeFavorite } from 'redux/favorite/favoriteSlice';
+import { selectFavorite } from 'redux/favorite/favoriteSelectors';
+
+import CarDescription from '../CarDescription/CarDescription';
+import DetailsGallery from '../DetailsGallery/DetailsGallery';
+import ButtonOpenModal from '../BtnOpenModal/BtnOpenModal';
+import CarImage from '../CarImage/CarImage';
+
 import {
   Icon,
   IconFavorite,
@@ -8,16 +19,6 @@ import {
   MainInformationBox,
   Wrapper,
 } from './CarItem.styled';
-import { useEffect, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { fetchCarById } from 'redux/cars/carsOperations';
-import CarDescription from 'components/CarDescription/CarDescription';
-import { addFavorite, removeFavorite } from 'redux/favorite/favoriteSlice';
-import DetailsGallery from 'components/DetailsGallery/DetailsGallery';
-
-
-import { selectFavorite } from 'redux/favorite/favoriteSelectors';
-import CarImage from 'components/CarImage/CarImage';
 
 const CarItem = ({ car }) => {
   const { year, make, model, img, rentalPrice } = car;

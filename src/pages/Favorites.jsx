@@ -1,6 +1,9 @@
-import CarsList from 'components/CarsList/CarsList';
 import { useSelector } from 'react-redux';
+
 import { selectFavorite } from 'redux/favorite/favoriteSelectors';
+
+import CarsList from 'components/CarsList/CarsList';
+
 import styled from 'styled-components';
 
 const Text = styled.p`

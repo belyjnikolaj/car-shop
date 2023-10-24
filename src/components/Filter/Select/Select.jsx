@@ -1,8 +1,10 @@
 import { createOptions } from 'helpers/createOptions';
-import { Label, SelectInput, SelectWrapper } from './Select.styled';
-import makes from 'makes.json';
 import { priceArray } from 'helpers/priceOptions';
 import { removeDuplicatesAndSort } from 'helpers/removeDuplicatesAndSort';
+
+import makes from 'makes.json';
+
+import { Label, SelectInput, SelectWrapper } from './Select.styled';
 
 const Select = ({ textLabel, name, width, handleChange, value, brand }) => {
   const sortMakes = removeDuplicatesAndSort(makes);
@@ -24,7 +26,7 @@ const Select = ({ textLabel, name, width, handleChange, value, brand }) => {
             transition: 'transform 0.5s',
             transform: state.selectProps.menuIsOpen ? 'rotate(180deg)' : 'none',
           }),
-          control: (base, state) => ({
+          control: (base, _) => ({
             ...base,
             backgroundColor: 'var(--input-bg-color)',
             borderRadius: '14px',

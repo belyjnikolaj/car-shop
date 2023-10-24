@@ -10,7 +10,6 @@ import {
 } from 'redux-persist';
 
 import { carsReducer } from './cars/carsSlice';
-
 import { favoriteReducer } from './favorite/favoriteSlice';
 import { filterReducer } from './filter/filterSlice';
 

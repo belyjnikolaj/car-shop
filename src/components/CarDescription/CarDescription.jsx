@@ -1,4 +1,8 @@
+import RentalConditions from '../RentalConditions/RentalConditions';
+import AccessoriesFunctionalities from '../AccessoriesFunctionalities/AccessoriesFunctionalities';
+import Details from '../Details/Details';
 import Modal from '../Modal/Modal';
+
 import {
   Image,
   ModalContent,
@@ -8,9 +12,6 @@ import {
   LinkBox,
   LinkStyle,
 } from './CarDescription.styled';
-import RentalConditions from 'components/RentalConditions/RentalConditions';
-import AccessoriesFunctionalities from 'components/AccessoriesFunctionalities/AccessoriesFunctionalities';
-import Details from 'components/Details/Details';
 
 const CarDescription = ({ isModalOpen, closeModal, car }) => {
   const { year, make, model, img, description } = car;

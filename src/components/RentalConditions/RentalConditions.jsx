@@ -1,4 +1,5 @@
 import { parseRentalConditions } from 'helpers/helpersStyle';
+
 import { Span, Subject, Section, List, Item } from './RentalConditions.styled';
 
 const RentalConditions = ({ car }) => {

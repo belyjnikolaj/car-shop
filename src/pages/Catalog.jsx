@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import ButtonLoadMore from 'components/ButtonLoadMore/ButtonLoadMore';
-import CarsList from 'components/CarsList/CarsList';
-import Filter from 'components/Filter/Filter';
 import {
   fetchAllCarsForFilter,
   fetchFirstPage,
@@ -11,6 +8,10 @@ import {
 import { selectCars } from 'redux/cars/carsSelectors';
 import { selectFilter } from 'redux/filter/filterSelectors';
 import { getFilteredCars } from 'helpers/getFilteredCars';
+
+import ButtonLoadMore from 'components/ButtonLoadMore/ButtonLoadMore';
+import CarsList from 'components/CarsList/CarsList';
+import Filter from 'components/Filter/Filter';
 import Loader from 'components/Loader/Loader';
 
 const Catalog = () => {
