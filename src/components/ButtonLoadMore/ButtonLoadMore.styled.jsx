@@ -1,9 +1,10 @@
 import styled from '@emotion/styled';
 
-export const BoxBtn = styled.button`
+export const BoxBtn = styled.div`
   width: 100%;
   margin-top: 100px;
   background-color: inherit;
+  text-align: center;
 `;
 
 export const Button = styled.button`

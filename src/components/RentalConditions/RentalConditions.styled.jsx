@@ -9,7 +9,6 @@ export const Section = styled.section`
 `;
 
 export const List = styled.ul`
-  // color: var(--secondary-color);
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
@@ -26,7 +25,7 @@ export const Item = styled.li`
   color: #363535;
   border-radius: 35px;
   background: #f9f9f9;
-  &:first-child {
+  &:first-of-type {
     font-family: Montserrat;
     letter-spacing: -0.24px;
   }
